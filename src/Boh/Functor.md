@@ -3,8 +3,7 @@
 ```haskell
 module Boh.Functor
   ( Functor(..)
-  )
-where
+  ) where
 ```
 
 ```haskell
@@ -60,3 +59,7 @@ instance Functor ((->) a) where
   fmap :: (b -> c) -> (a -> b) -> a -> c
   fmap g f x = g (f x)
 ```
+
+## References
+
+TODO

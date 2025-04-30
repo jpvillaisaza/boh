@@ -20,8 +20,13 @@ library
     src
   exposed-modules:
     Boh
+    Boh.Applicative
     Boh.Functor
+    Boh.List
+    Boh.Monad
+    Boh.Monoid
     Boh.Prelude
+    Boh.Semigroup
   build-depends:
     , markdown-unlit >= 0.6.0 && < 0.7
   build-tool-depends:
