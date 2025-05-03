@@ -6,6 +6,16 @@ module Boh.Functor
   ) where
 ```
 
+## Overview
+
+TODO
+
+## Motivation
+
+TODO
+
+## TODO
+
 ```haskell
 import Boh.Prelude
 ```
@@ -59,6 +69,20 @@ instance Functor ((->) a) where
   fmap :: (b -> c) -> (a -> b) -> a -> c
   fmap g f x = g (f x)
 ```
+
+## Laws
+
+```haskell ignore
+fmap id == id
+```
+
+```haskell ignore
+fmap (g . f) == fmap f . fmap g
+```
+
+## Exercises
+
+TODO
 
 ## References
 
