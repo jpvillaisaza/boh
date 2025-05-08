@@ -87,3 +87,17 @@ TODO
 ## References
 
 TODO
+
+* Hutton (2016, section 12.1)
+
+## Bibliography
+
+TODO
+
+* Hutton, Graham (2016). _Programming in Haskell_. 2nd ed. Cambridge
+  University Press.
+* Lipovača, Miran (2011). _Learn You a Haskell for Great Good! A
+  Beginner's Guide_. No Starch Press.
+* Marlow, Simon, ed. (2010). _Haskell 2010 Language Report_.
+* Yorgey, Brent (2009). The Typeclassopedia. In: _The Monad.Reader_
+  13, pp. 17–68.
