@@ -57,6 +57,18 @@ class Functor (f :: Type -> Type) where
 
 ## Instances
 
+### `Identity`
+
+```haskell
+newtype Identity a = Identity a
+```
+
+```haskell
+instance Functor Identity where
+  fmap :: (a -> b) -> Identity a -> Identity b
+  fmap f (Identity x) = Identity (f x)
+```
+
 ### `[]`
 
 ```haskell
